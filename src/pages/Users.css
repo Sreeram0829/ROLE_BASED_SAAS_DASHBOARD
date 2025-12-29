@@ -1,0 +1,60 @@
+/* === users page wrapper */
+.users-page {
+  padding: 20px;
+}
+
+/* === Table Styling === */
+.users-page table{
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 16px;
+  background-color: #fff;
+}
+
+/* === Table Head === */
+.users-page thead {
+  background-color: #f2f2f2;
+}
+
+.users-page th,
+.users-page td {
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+/* === Table Rows === */
+.users-page tbody tr:hover {
+  background-color: #fafafa;
+}
+
+/*== Inputs inside table (edit mode) == */
+.users-page input {
+  width: 100%;
+  padding: 6px;
+  border: 1pxx solid #ccc;
+  border-radius: 4px;
+}
+
+/* === Actions Buttons === */
+.users-page button {
+  margin-right: 6px;
+}
+
+/* === Pagination controls == */
+.users-page .pagination {
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+
+.btn-danger {
+  border-color: #e57373;
+  color: #d32f2f;
+}
+
+.btn-danger:hover {
+  background-color: #fdecea;
+}
